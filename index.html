@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess The Number!!</title>
+    <!-- <script src="index.css"></script> -->
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="upperHalf">
+        <div class="one">
+            <div class="oneLeft">
+                <button class="again">Again!</button>
+            </div>
+            <div class="oneRight">
+                <p>(Between 1 and 20)</p>
+            </div>
+        </div>
+        <div class="two">
+            <p>Guess My Number!!</p>
+        </div>
+    </div>
+    <div class="middle">
+        <div class="first">
+            <hr class="right">
+        </div>
+        <div class="second" id="randomNumDiv">
+            <!-- <input type="number" name="inputNum" id="inputBox"> -->
+            <p class="randomNumber">?</p>
+        </div>
+        <div class="first">
+            <hr class="right">
+        </div>
+    </div>
+    <div class="lowerHalf">
+        <div class="leftBox">
+            <div class="leftBox1">
+                <p>Enter Your Number!!</p>
+            </div>
+            <div class="leftBox2">
+                <input type="number" name="inputNum" class="guess" id="inputBox">
+            </div>
+            <div class="checkBtn">
+                <button class="check" id="myCheck">Check</button>
+            </div>
+
+        </div>
+        <div class="rightBox">
+            <div class="crntRxn">
+                Start Guessing.....!
+            </div>
+            <div class="highScore">
+                <p>High Score:: 
+                    <span class="hScore">0</span>
+                </p>
+            </div>
+            <div class="score">
+                <p>Score:: 
+                    <span class="crntScore">20</span>
+                </p>
+            </div>
+            
+        </div>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>
